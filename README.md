@@ -2,6 +2,7 @@
 
 ##step1 (https://github.com/repetitor/stream202-laravel8/tree/step1)
 ``` 
+git checkout step1
 cp .env-example-repetitor202 .env
 ```
 
