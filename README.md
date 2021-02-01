@@ -10,6 +10,18 @@ cp .env-example-repetitor202 .env
 git checkout step2_postgres
 cp .env-example-repetitor202 .env
 ```
+##step3 (https://github.com/repetitor/stream202-laravel8/tree/step3-migrate-seed)
+``` 
+git checkout step3-migrate-seed
+cp .env-example-repetitor202 .env
+
+# php artisan php artisan make:migration create_flights_table
+# php artisan migrate
+
+# php artisan make:seeder UserSeeder
+# php artisan db:seed
+# hp artisan db:seed --class=UserSeeder
+```
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
