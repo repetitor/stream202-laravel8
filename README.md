@@ -5,6 +5,11 @@
 git checkout step1
 cp .env-example-repetitor202 .env
 ```
+##step2 (https://github.com/repetitor/stream202-laravel8/tree/step2_postgres)
+``` 
+git checkout step2_postgres
+cp .env-example-repetitor202 .env
+```
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
