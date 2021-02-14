@@ -20,7 +20,15 @@ cp .env-example-repetitor202 .env
 
 # php artisan make:seeder UserSeeder
 # php artisan db:seed
-# hp artisan db:seed --class=UserSeeder
+# php artisan db:seed --class=UserSeeder
+```
+##step4 (https://github.com/repetitor/stream202-laravel8/tree/step4-make-model-a-DTO-translator-service)
+``` 
+git checkout step4-make-model-a-DTO-translator-service
+cp .env-example-repetitor202 .env
+
+# php artisan make:model Article -a
+# Route::apiResource('articles', \App\Http\Controllers\ArticleController::class);
 ```
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
