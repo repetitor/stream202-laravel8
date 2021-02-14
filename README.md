@@ -1,16 +1,24 @@
 !!! this project is for deploying on laradock (https://github.com/repetitor/stream202-laradock)
 
 ##step1 (https://github.com/repetitor/stream202-laravel8/tree/step1)
+
+https://www.youtube.com/watch?v=HX2qiMxZVD0&t=0s - запустим ларавель чисто в докере (на ларадоке)
+
+https://www.youtube.com/watch?v=iN5k3JKgOks&t=0s - применяем xdebug in laravel
 ``` 
 git checkout step1
 cp .env-example-repetitor202 .env
 ```
 ##step2 (https://github.com/repetitor/stream202-laravel8/tree/step2_postgres)
+
+https://www.youtube.com/watch?v=06zV86cRsOI&t=0s - запускаем php artisan migrate in postgres
 ``` 
 git checkout step2_postgres
 cp .env-example-repetitor202 .env
 ```
 ##step3 (https://github.com/repetitor/stream202-laravel8/tree/step3-migrate-seed)
+
+https://www.youtube.com/watch?v=5Z9sbFZ9UrY&t=0s - laravel migrate seed
 ``` 
 git checkout step3-migrate-seed
 cp .env-example-repetitor202 .env
