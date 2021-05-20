@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::apiResource('articles', \App\Http\Controllers\ArticleController::class);
+
+Route::get('test-queue', '\App\Http\Controllers\TestController@queueTest');
